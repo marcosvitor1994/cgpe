@@ -56,8 +56,8 @@ const Home = () => {
           <br />
 
             <Link to="/fluxograma" ><Button variant="primary">Fluxograma de Processo CGPE</Button></Link>{' '}
-            <Link to="/fluxograma" ><Button variant="primary">Bloco de Avaliação do Governo</Button></Link>{' '}
-            <Link to="/fluxograma" ><Button variant="primary">Bloco Temáticas da Semana</Button></Link>
+            <Link to="/avaliacaosemanal" ><Button variant="primary">Bloco de Avaliação do Governo</Button></Link>{' '}
+            <Link to="/tematicas" ><Button variant="primary">Bloco Temáticas da Semana</Button></Link>
           </Col>
         </Row>
       </Container>

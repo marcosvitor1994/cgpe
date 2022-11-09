@@ -7,7 +7,7 @@ const Menu = () => {
     <div>
         <Navbar key='xl' bg="dark" variant="dark" expand='xl' className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="#">Coordenação-Geral de Pesquisa</Navbar.Brand>
+            <Navbar.Brand href="/">Coordenação-Geral de Pesquisa</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-xl`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-xl`}
@@ -21,7 +21,7 @@ const Menu = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                    
+
                     <Link className="nav-link" to="/home" >Home</Link>
                     <Link className="nav-link" to="/fluxograma" >Fluxograma</Link>
                     <Link className="nav-link" to="/avaliacaosemanal" >Bloco Avaliação do Governo</Link>
