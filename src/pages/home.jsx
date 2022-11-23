@@ -1,3 +1,4 @@
+import { hover } from '@testing-library/user-event/dist/hover'
 import React from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
@@ -14,26 +15,21 @@ const Home = () => {
                   textAlign: 'center',
                   color: 'white'
               }}>
-                <img src="https://img.freepik.com/fotos-premium/luz-azul-gradiente-banner-abstrato_8087-1851.jpg?w=1060" alt="Snow" 
-                style={{
-
-                  width:'100%', 
-                  height:'250px',                  
-
-                }} />
+                
                 <div
                   style={{
-                    position: 'absolute',
-                    top: '50%',
-                    left: '50%',
-                    transform: 'translate(-50%, -50%)',
-                    fontFamily: 'Montserrat'
+                    width:'100%',
+                    height:'220px',
+                    borderRadius: '5px',
+                    fontFamily: 'Montserrat',
+                    backgroundImage: `url('https://ibefsp.com.br/wp-content/uploads/2022/09/BG-01-ESG-pesquisa.png')`,
+                    backgroundRepeat: 'no-repeat',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',      
+                    hover: {transform: 'scale(1.5)', boxShadow: '0 5px 15px rgba(0,0,0,0.6)'}  
                   }}>
-                  <h3>MINISTÉRIO DAS COMUNICAÇÕES</h3>
-                  <h4>Secretaria Especial de Comunicação Social</h4>
-                  <h4>Secretaria de Publicidade, Promoção e Patrocínio</h4>
-                  <h4>Departamento de Publicidade e Pesquisa</h4>
-                  <h3>Coordenação-Geral de Pesquisa</h3>
+                  
+                  <h2 style={{position: 'absolute', top: '50%', left:' 50%', transform: 'translate(-50%, -50%)'}}>Coordenação-Geral de Pesquisa</h2>
                 </div>
               </div>
              
