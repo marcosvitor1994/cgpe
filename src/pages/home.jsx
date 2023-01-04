@@ -28,7 +28,7 @@ const Home = () => {
                     hover: {transform: 'scale(1.5)', boxShadow: '0 5px 15px rgba(0,0,0,0.6)'}  
                   }}>
                   
-                  <h2 style={{position: 'absolute', top: '50%', left:' 50%', transform: 'translate(-50%, -50%)'}}>Coordenação-Geral de Pesquisa</h2>
+                  <h2 style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}>Coordenação-Geral de Pesquisa</h2>
                 </div>
               </div>
              
