@@ -91,7 +91,7 @@ const Home = () => {
                 
               </Card.Body>
               <Card.Footer className="text-muted">
-                <Link to="/avaliacaosemanal" className="d-grid gap-2"><Button variant="outline-light">Avaliação do Governo Federal</Button></Link>
+                <Link to="/avaliacaosemanal" className="d-grid gap-2"><Button variant="outline-light">Expectativas e Avaliação Governamental</Button></Link>
               </Card.Footer>              
             </Card>
           

@@ -1,21 +1,31 @@
 import React from 'react'
 import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import logo from './home-button.png'
 
 const Menu = () => {
   return (
     <div>
-        <Navbar key='xl' bg="primary" variant="dark" expand='xl' className="mb-3">
+        <Navbar key='sm' bg="dark" variant="dark" expand='sm' className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="/">Coordenação-Geral de Pesquisa</Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-xl`} />
+            <Navbar.Brand href="/">
+              <img
+                alt=""
+                src={logo}
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+              />{' '}              
+              Coordenação-Geral de Pesquisa
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-sm`} />
             <Navbar.Offcanvas
-              id={`offcanvasNavbar-expand-xl`}
-              aria-labelledby={`offcanvasNavbarLabel-expand-xl`}
+              id={`offcanvasNavbar-expand-sm`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-sm`}
               placement="end"
             >
               <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-xl`}>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-sm`}>
                   Coordenação-Geral de Pesquisa
                 </Offcanvas.Title>
               </Offcanvas.Header>
